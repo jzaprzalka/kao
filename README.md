@@ -1,2 +1,2 @@
 # kao
-Kreskowa Aplikacja Open-Source
+barKode Attachment to Openfoodfacts in Vue
