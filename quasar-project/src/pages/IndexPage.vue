@@ -12,13 +12,14 @@
 
     <q-select
         rounded outlined bottom-slots
+        color="green-9"
         v-model="model"
         :options="options"
         label="Choose language"
         :dense="dense"
         :options-dense="denseOpts"
         style="width: 250px;">
-      <template v-slot:before>
+      <template v-slot:prepend>
         <q-icon name="language" />
       </template>
     </q-select>
@@ -27,7 +28,7 @@
       style="flex-basis: 100%; height: 0; margin: 0; border: 0;"
     />
 
-    <q-btn outline rounded color="primary" size="lg" label="GET STARTED"/>
+    <q-btn rounded color="secondary" size="lg" label="GET STARTED" to="product/search"/>
   </q-page>
 </template>
 
