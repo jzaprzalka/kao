@@ -49,6 +49,13 @@ export default defineComponent({
       })
     },
     submit() {
+      let stream =  this.$refs.video.srcObject
+      let tracks = stream.getTracks()
+      tracks.forEach(function(track) {
+        track.stop()
+      })
+      this.$refs.video.srcObject = null;
+
       console.log(this.barcode)
       let _this = this
       _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
