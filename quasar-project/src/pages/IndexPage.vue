@@ -11,13 +11,12 @@
     />
 
     <q-select
-        rounded outlined bottom-slots
-        color="green-9"
+        rounded
+        outlined
+        bottom-slots
         v-model="model"
         :options="options"
         label="Choose language"
-        :dense="dense"
-        :options-dense="denseOpts"
         style="width: 250px;">
       <template v-slot:prepend>
         <q-icon name="language" />
@@ -28,7 +27,7 @@
       style="flex-basis: 100%; height: 0; margin: 0; border: 0;"
     />
 
-    <q-btn rounded color="secondary" size="lg" label="GET STARTED" to="product/search"/>
+    <q-btn rounded color="primary" size="lg" label="GET STARTED" to="product/search"/>
   </q-page>
 </template>
 
@@ -43,10 +42,7 @@ export default defineComponent({
       model: ref(null),
       options: [
         'Polish', 'English', '<3', 'Apple', 'Oracle', '🤮🤮🤮🤮🤮🤮'
-      ],
-
-      dense: ref(false),
-      denseOpts: ref(false)
+      ]
     }
   }
 })
