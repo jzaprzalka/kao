@@ -19,7 +19,8 @@
 
     <div class="row justify-center q-pa-md" style="margin-top: 0 !important; padding-top: 0 !important;">
       <q-input
-        rounded outlined
+        rounded
+        outlined
         v-model="barcode"
         style="min-width: 20em !important;"
         @keydown.enter.prevent="submit()"

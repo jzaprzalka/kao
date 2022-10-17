@@ -1,49 +1,33 @@
 <template>
   <q-page class="flex-center">
     <q-img
-      src="https://placeimg.com/500/300/nature"
+      src="~assets/logoKAO.png"
       style="width: 100%;
       position: fixed;
       top: 0;
       left: 0;"
       :fit="'cover'"
     />
-    <div class="q-pa-md" style="padding-top: 50%;">
-      <q-card bordered class="my-card" style="border-radius: 30px;">
+    <div class="q-pa-md" style="padding-top: 45%;">
+      <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h5">Product Name</div>
         </q-card-section>
       </q-card>
     </div>
     <div class="q-pa-md" >
-      <q-card bordered class="my-card" style="border-radius: 30px;">
+      <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h6">Health</div>
         </q-card-section>
 
-        <q-card-section style="background: #26a69a; border-radius: 30px; margin: 0.4em;">
+        <q-card-section class="my-card"  style="border-radius: 30px; margin: 0.4em;">
           <div class="text-h6">Nutrition Score</div>
         </q-card-section>
 
         <q-card-section class="q-pt-none">
           <div class="text-h6">Ingredients</div>
-          <div>
-            <span class="left">bla bla</span>
-            <span class="right">x%</span>
-          </div>
-          <div>
-            <span class="left">bla bla</span>
-            <span class="right">x%</span>
-          </div>
-          <div>
-            <span class="left">bla bla</span>
-            <span class="right">x%</span>
-          </div>
-          <div>
-            <span class="left">bla bla</span>
-            <span class="right">x%</span>
-          </div>
-          <div>
+          <div v-for="n in 5" :key="n">
             <span class="left">bla bla</span>
             <span class="right">x%</span>
           </div>
@@ -52,7 +36,7 @@
     </div>
 
     <div class="q-pa-md" >
-      <q-card bordered class="my-card" style="border-radius: 30px;">
+      <q-card bordered style="border-radius: 30px;">
         <q-card-section >
           <div>
             <span class="left">Vegan</span>
@@ -72,12 +56,12 @@
     </div>
 
     <div class="q-pa-md" >
-      <q-card bordered class="my-card" style="border-radius: 30px;">
+      <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h6">Environment impact</div>
         </q-card-section>
 
-        <q-card-section style="background: #26a69a; border-radius: 30px; margin: 0.4em;">
+        <q-card-section class="my-card" style="border-radius: 30px; margin: 0.4em;">
           <div class="text-h6">Ecoscore Material Score</div>
         </q-card-section>
 
@@ -109,15 +93,13 @@ export default {
 }
 </script>
 
-<style scoped>
-.right {
-  float: right;
-}
+<style lang="sass" scoped>
+.right
+  float: right
 
-.left {
-  text-align: left;
-  display:inline-block;
-}
 
+.left
+  text-align: left
+  display: inline-block
 
 </style>

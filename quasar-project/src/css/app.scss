@@ -1,1 +1,12 @@
-// app global css in SCSS form
+.body--dark {
+  --q-primary: #673ab7;
+  --q-secondary: #7e57c2;
+}
+
+.body--light {
+  --q-primary: #388e3c;
+  --q-secondary: #4caf50;
+}
+
+.body--light .my-card {background: #388e3c;}
+.body--dark .my-card {background: #7e57c2;}
