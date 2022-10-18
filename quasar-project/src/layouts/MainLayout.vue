@@ -1,5 +1,24 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh lpr lFf">
+    <q-header style="background-color: transparent;">
+      <q-toolbar>
+        <q-toolbar-title>
+          <q-avatar>
+            <img src="~assets/logoKAO.png" alt="KAO logo">
+          </q-avatar>
+        </q-toolbar-title>
+        <q-space />
+        <q-toggle
+          v-model="themes"
+          checked-icon="dark_mode"
+          color="black"
+          dark
+          keep-color
+          unchecked-icon="light_mode"
+          @update:model-value="onUpdate"
+        />
+      </q-toolbar>
+    </q-header>
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -7,19 +26,23 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
+import { Dark } from "quasar";
 
 export default defineComponent({
   name: 'MainLayout',
-
   components: {
   },
 
   setup () {
-
-
     return {
-
+      themes: ref(false),
+    }
+  },
+  methods: {
+    onUpdate(val) {
+      console.log(val)
+      Dark.set(val)
     }
   }
 })
