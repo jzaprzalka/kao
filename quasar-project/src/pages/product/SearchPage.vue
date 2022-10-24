@@ -31,13 +31,61 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
+import { api } from 'boot/axios'
+import {useQuasar} from "quasar";
 
 export default defineComponent({
   name: "SearchPage",
 
   setup () {
+    const $q = useQuasar()
+
+    function  submit() {
+      let stream =  this.$refs.video.srcObject
+      let tracks = stream.getTracks()
+      let _this = this
+      let data;
+
+      api.get(`api/v2/product/${this.barcode}`)
+        .then((response) => {
+          data = Object.values(response.data)
+        })
+        .catch(() => {
+          $q.notify({
+            color: 'negative',
+            position: 'top',
+            message: 'Loading failed',
+            icon: 'report_problem'
+          })
+        })
+
+      $q.notify({
+        spinner: true,
+        message: 'Please wait...',
+        timeout: 1600
+      })
+
+      setTimeout(() => {
+        if(data[0] == null)
+          $q.notify({
+            message: 'Product not found',
+            icon: 'error'
+          })
+        else
+        {
+          tracks.forEach(function(track) {
+            track.stop()
+          })
+          this.$refs.video.srcObject = null;
+          data = data[1]
+          _this.$router.push({path: '/product/details',  query: { barcode: JSON.stringify(data) }})
+        }
+      }, 1950)
+
+    }
     return {
-      barcode: ref('')
+      barcode: ref(''),
+      submit
     }
   },
 
@@ -49,18 +97,6 @@ export default defineComponent({
         this.$refs.video.srcObject = stream
       })
     },
-    submit() {
-      let stream =  this.$refs.video.srcObject
-      let tracks = stream.getTracks()
-      tracks.forEach(function(track) {
-        track.stop()
-      })
-      this.$refs.video.srcObject = null;
-
-      console.log(this.barcode)
-      let _this = this
-      _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
-    }
   },
   mounted() {
     this.initCamera()
