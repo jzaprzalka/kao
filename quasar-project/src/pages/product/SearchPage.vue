@@ -49,7 +49,6 @@ export default defineComponent({
       api.get(`api/v2/product/${this.barcode}`)
         .then((response) => {
           data = Object.values(response.data)
-          console.log(data)
         })
         .catch(() => {
           $q.notify({
@@ -67,10 +66,6 @@ export default defineComponent({
       })
 
       setTimeout(() => {
-        console.log(this.barcode)
-
-        console.log(data[0])
-
         if(data[0] == null)
           $q.notify({
             message: 'Product not found',
@@ -82,7 +77,8 @@ export default defineComponent({
             track.stop()
           })
           this.$refs.video.srcObject = null;
-          _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
+          data = data[1]
+          _this.$router.push({path: '/product/details',  query: { barcode: JSON.stringify(data) }})
         }
       }, 1950)
 

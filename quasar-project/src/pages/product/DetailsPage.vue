@@ -85,9 +85,11 @@
 
 export default {
   name: "DetailsPage",
+
+
   mounted() {
     let _this = this
-    let barcode = _this.$router.currentRoute.value.query.barcode
+    let barcode = JSON.parse(_this.$router.currentRoute.value.query.barcode)
     console.log(barcode)
   }
 }
