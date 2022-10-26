@@ -4,20 +4,9 @@
       <h5 class="text-weight-light text-center">
         Scan the barcode...
       </h5>
-      <!-- <qrcode-stream @decode="onDecode" @init="onInit" /> -->
       <div class="full-width">
         <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" />
       </div>
-      <!-- <video
-        ref="video"
-        class="full-width"
-        autoplay
-        playsinline /> -->
-      <!-- <p class="error">{{ error }}</p> -->
-
-      <!-- <p class="decode-result">
-        Last result: <b>{{ result }}</b>
-      </p> -->
     </div>
 
     <div class="row justify-center q-pa-md">
@@ -40,7 +29,6 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-import { QrcodeStream } from 'vue-qrcode-reader/src/index'
 import { StreamBarcodeReader } from 'vue-barcode-reader'
 import { api } from 'boot/axios'
 import {useQuasar} from "quasar";
@@ -59,9 +47,7 @@ export default defineComponent({
   setup () {
     const $q = useQuasar()
 
-    function  submit() {
-      let stream =  this.$refs.video.srcObject
-      let tracks = stream.getTracks()
+    function submit() {
       let _this = this
       let data;
 
@@ -92,10 +78,6 @@ export default defineComponent({
           })
         else
         {
-          tracks.forEach(function(track) {
-            track.stop()
-          })
-          this.$refs.video.srcObject = null;
           data = data[1]
           _this.$router.push({path: '/product/details',  query: { barcode: JSON.stringify(data) }})
         }
@@ -109,33 +91,16 @@ export default defineComponent({
   },
 
   methods: {
-    // initCamera() {
-    //   navigator.mediaDevices.getUserMedia({
-    //     video: true
-    //   }).then(stream => {
-    //     this.$refs.video.srcObject = stream
-    //   })
+    // submit() {
+    //   console.log(this.barcode)
+    //   let _this = this
+    //   _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
     // },
-    submit() {
-      // let stream =  this.$refs.video.srcObject
-      // let tracks = stream.getTracks()
-      // tracks.forEach(function(track) {
-      //   track.stop()
-      // })
-      // this.$refs.video.srcObject = null;
-
-      console.log(this.barcode)
-      let _this = this
-      _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
-    },
     onDecode(a, b, c) {
       this.barcode = a;
       console.log(a + "" + b + "" + c);
       submit();
     },
-    // onDecode(result) {
-    //   this.result = result;
-    // },
     async onInit(promise) {
       try {
         await promise;
@@ -157,12 +122,8 @@ export default defineComponent({
     },
     onLoaded() {
       console.log("load");
-
     },
   },
-  // mounted() {
-  //   this.initCamera()
-  // },
   
 })
 </script>
