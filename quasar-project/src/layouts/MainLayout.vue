@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
-            <img src="~assets/logoKAO.png" alt="KAO logo">
+            <img src="~assets/tu_mini_logo_kao.svg" alt="KAO logo">
           </q-avatar>
         </q-toolbar-title>
         <q-space />
@@ -41,7 +41,6 @@ export default defineComponent({
   },
   methods: {
     onUpdate(val) {
-      console.log(val)
       Dark.set(val)
     }
   }

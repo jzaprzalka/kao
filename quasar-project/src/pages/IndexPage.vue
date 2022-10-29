@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <img
       alt="KAO logo"
-      src="~assets/logoKAO.png"
+      :src="$q.dark.isActive ? 'logos/tu_logo_kao_dark.svg' : 'logos/tu_logo_kao.svg'"
       style="width: 200px; height: 200px; margin-top: 10em;"
     >
 
@@ -46,9 +46,10 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import {defineComponent, ref} from 'vue'
 import { api } from 'boot/axios'
 import { useQuasar } from 'quasar'
+
 
 export default defineComponent({
   name: 'IndexPage',
@@ -97,7 +98,7 @@ export default defineComponent({
 
       abortFilterFn () {
         console.log('delayed filter aborted')
-      }
+        }
       }
     },
     methods: {
