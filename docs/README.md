@@ -10,7 +10,7 @@ There are 2 ways for installing the project. The instructions for [end users](#e
 
 -----
 
-**_In development_**: This Application is currently in the development phase and the features described in this section. 
+**_In development_**: This Application is currently in the development phase and the features described in this section are not yet working. 
 
 -----
 
