@@ -24,6 +24,10 @@ In the product's details view one can scroll through various information about t
 
 The application, as the API, gives the user the possibility to change the country to search through products only within their country (and in that country's language for that matter). 
 
+## Documentation
+
+The main functionalities of the app, installation-, and usage guide are well documented. Please see [docs](./docs/README.md) for details. 
+
 ## License
 
 This app and its source code are published under MIT license. Please refer to [LICENSE](./LICENSE) for more details.
