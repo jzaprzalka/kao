@@ -1,5 +1,5 @@
 {
-  "name": "com.kao.barkode",
+  "name": "com.company.kao",
   "displayName": "KAO",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -14,19 +14,17 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^10.1.2",
-    "cordova-plugin-android-permissions": "^1.1.4",
-    "cordova-plugin-camera": "^6.0.0",
-    "cordova-plugin-permission": "^0.1.0"
+    "cordova-plugin-permission": "^0.1.0",
+    "cordova-plugin-qr-barcode-scanner": "^8.0.3"
   },
   "cordova": {
     "platforms": [
       "android"
     ],
     "plugins": {
-      "cordova-plugin-android-permissions": {},
       "cordova-plugin-permission": {},
-      "cordova-plugin-camera": {
-        "ANDROIDX_CORE_VERSION": "1.6.+"
+      "cordova-plugin-qr-barcode-scanner": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
       }
     }
   }
