@@ -4,7 +4,7 @@
       :ratio="16/9" @click="showImage = true">
       <template v-slot:error>
         <div class="absolute-full flex flex-center bg-negative text-white">
-          Cannot load image
+          {{$t("Cannot load image")}}
         </div>
       </template>
     </q-img>
@@ -22,7 +22,7 @@
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div>
-            <span class="text-h6">Categories</span>
+            <span class="text-h6">{{$t("Categories")}}</span>
             <div v-for="n in categories.length" :key="n">
               <span>{{categories[n-1]}}</span>
             </div>
@@ -34,7 +34,7 @@
     <div class="q-pa-md" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
-          <div class="text-h6">Health</div>
+          <div class="text-h6">{{$t("Health")}}</div>
         </q-card-section>
         <q-card-section class="my-card"  style="border-radius: 30px; margin: 0.4em;">
           <div class="text-h6">
@@ -52,50 +52,50 @@
           </div>
         </q-card-section>
         <q-card-section class="q-pt-none">
-          <div class="text-h6">Ingredients</div>
+          <div class="text-h6">{{$t("Ingredients")}}</div>
           <div>{{ingredients}}</div>
         </q-card-section>
         <q-card-section class="q-pt-none">
-          <div class="text-h6">Nutriments (100g)</div>
+          <div class="text-h6">{{$t("Nutriments (100g)")}}</div>
           <div>
-            <span class="left">carbohydrates</span>
+            <span class="left">{{$t("carbohydrates")}}</span>
             <span class="right">{{nutriments.carbohydrates_100g}} {{nutriments.carbohydrates_unit}}</span>
           </div>
           <div>
-            <span class="left">energy</span>
+            <span class="left">{{$t("energy")}}</span>
             <span class="right">{{nutriments['energy-kcal_100g']}} {{nutriments['energy-kcal_unit']}}</span>
           </div>
           <div>
-            <span class="left">fat</span>
+            <span class="left">{{$t("fat")}}</span>
             <span class="right">{{nutriments.fat_100g}} {{nutriments.fat_unit}}</span>
           </div>
           <div>
-            <span class="left">fiber</span>
+            <span class="left">{{$t("fiber")}}</span>
             <span class="right">{{nutriments.fiber_100g}} {{nutriments.fiber_unit}}</span>
           </div>
           <div>
-            <span class="left">proteins</span>
+            <span class="left">{{$t("proteins")}}</span>
             <span class="right">{{nutriments.proteins_100g}} {{nutriments.proteins_unit}}</span>
           </div>
           <div>
-            <span class="left">salt</span>
+            <span class="left">{{$t("salt")}}</span>
             <span class="right">{{nutriments.salt_100g}} {{nutriments.salt_unit}}</span>
           </div>
           <div>
-            <span class="left">saturated fat</span>
+            <span class="left">{{$t("saturated fat")}}</span>
             <span class="right">{{nutriments['saturated-fat_100g']}} {{nutriments['saturated-fat_unit']}}</span>
           </div>
           <div>
-            <span class="left">sodium</span>
+            <span class="left">{{$t("sodium")}}</span>
             <span class="right">{{nutriments.sodium_100g}} {{nutriments.sodium_unit}}</span>
           </div>
           <div>
-            <span class="left">sugars</span>
+            <span class="left">{{$t("sugars")}}</span>
             <span class="right">{{nutriments.sugars_100g}} {{nutriments.sugars_unit}}</span>
           </div>
         </q-card-section>
         <q-card-section class="q-pt-none">
-          <span class="text-h6">Vitamins</span>
+          <span class="text-h6">{{$t("Vitamins")}}</span>
           <div>{{vitamins}}</div>
         </q-card-section>
       </q-card>
@@ -105,15 +105,15 @@
       <q-card bordered style="border-radius: 30px;">
         <q-card-section >
           <div>
-            <span class="left">🌿 Palm Oil?</span>
+            <span class="left">🌿 {{$t("Palm Oil?")}}</span>
             <span class="right">{{analysis[0]}}</span>
           </div>
           <div>
-            <span class="left">🌿 Vegan?</span>
+            <span class="left">🌿 {{$t("Vegan?")}}</span>
             <span class="right">{{analysis[1]}}</span>
           </div>
           <div>
-            <span class="left">🌿 Vegetarian?</span>
+            <span class="left">🌿 {{$t("Vegetarian?")}}</span>
             <span class="right">{{analysis[2]}}</span>
           </div>
         </q-card-section>
@@ -123,7 +123,7 @@
     <div class="q-pa-md" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
-          <div class="text-h6">Environment impact</div>
+          <div class="text-h6">{{$t("Environment impact")}}</div>
         </q-card-section>
 
         <q-card-section class="my-card" style="border-radius: 30px; margin: 0.4em;">
@@ -144,7 +144,7 @@
 
         <q-card-section>
           <div>
-            <span class="text-h6">Packaging</span>
+            <span class="text-h6">{{$t("Packaging")}}</span>
             <div v-for="n in packaging.length" :key="n">
               <span>📦 {{packaging[n-1]}}</span>
             </div>
@@ -157,7 +157,7 @@
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div>
-            <span class="text-h6">Keywords</span>
+            <span class="text-h6">{{$t("Keywords")}}</span>
             <div>{{barcode._keywords.join(', ')}}</div>
           </div>
         </q-card-section>
@@ -169,7 +169,7 @@
     >
       <q-card style="width: 100%">
         <q-card-section>
-          <div class="text-h6">Full product image</div>
+          <div class="text-h6">{{$t("Full product image")}}</div>
         </q-card-section>
 
         <q-card-section class="q-pt-none">
