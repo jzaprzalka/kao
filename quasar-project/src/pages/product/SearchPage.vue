@@ -5,7 +5,7 @@
         Scan the barcode...
       </h5>
       <div class="full-width">
-        <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" />
+        <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" @init="onInit"  />
       </div>
     </div>
 
@@ -124,7 +124,7 @@ export default defineComponent({
       console.log("load");
     },
   },
-  
+
 })
 </script>
 
