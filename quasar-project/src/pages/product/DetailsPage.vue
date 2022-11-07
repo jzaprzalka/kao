@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex-center">
-    <q-img :src="barcode.image_front_small_url" style="width: 100%; position: fixed; top: 0; left: 0;" :fit="'cover'"
+    <q-img class="product-img" :src="barcode.image_front_small_url" style="width: 100%; position: fixed; top: 0; left: 0;" :fit="'cover'"
       :ratio="16/9" @click="showImage = true">
       <template v-slot:error>
         <div class="absolute-full flex flex-center bg-negative text-white">
@@ -8,7 +8,7 @@
         </div>
       </template>
     </q-img>
-    <div class="q-pa-md" style="padding-top: 40%;">
+    <div class="q-pa-md cards" style="padding-top: 40%;">
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h5"> {{barcode.product_name}} </div>
@@ -18,7 +18,7 @@
       </q-card>
     </div>
 
-    <div class="q-pa-md" >
+    <div class="q-pa-md cards" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div>
@@ -31,7 +31,7 @@
       </q-card>
     </div>
 
-    <div class="q-pa-md" >
+    <div class="q-pa-md cards" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h6">Health</div>
@@ -101,7 +101,7 @@
       </q-card>
     </div>
 
-    <div class="q-pa-md" >
+    <div class="q-pa-md cards" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section >
           <div>
@@ -120,7 +120,7 @@
       </q-card>
     </div>
 
-    <div class="q-pa-md" >
+    <div class="q-pa-md cards" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div class="text-h6">Environment impact</div>
@@ -153,7 +153,7 @@
       </q-card>
     </div>
 
-    <div class="q-pa-md" >
+    <div class="q-pa-md cards" >
       <q-card bordered style="border-radius: 30px;">
         <q-card-section>
           <div>
@@ -278,5 +278,11 @@ export default {
   -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 1)
   -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 1)
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 1)
+
+.cards
+  z-index: 100
+
+.product-img
+  z-index: 0
 
 </style>
