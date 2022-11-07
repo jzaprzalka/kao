@@ -2,7 +2,7 @@
   <q-page class="flex-center q-pa-md">
     <div class="row justify-center q-pa-md">
       <h5 class="text-weight-light text-center" style="margin-top: 0.5em !important;">
-        Scan the barcode...
+        {{ $t('Scan the barcode...') }}
       </h5>
       <div class="full-width">
         <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" @init="onInit" v-if="$q.platform.is.desktop" />
@@ -25,7 +25,7 @@
 
     <div class="row justify-center q-pa-md">
       <h5 class="text-weight-light text-center" style="margin-bottom: 0.05em !important; padding-bottom: 0.05em !important; margin-top: 0.5em !important;">
-       ...or enter numbers below
+        {{ $t('...or enter numbers below') }}
       </h5>
     </div>
 
@@ -161,6 +161,7 @@ export default defineComponent({
       );
     },
   },
+
 
 })
 </script>

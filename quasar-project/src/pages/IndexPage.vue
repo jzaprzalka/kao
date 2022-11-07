@@ -1,5 +1,6 @@
 <template>
   <q-page class="flex flex-center">
+
     <img
       alt="KAO logo"
       :src="$q.dark.isActive ? 'logos/tu_logo_kao_dark.svg' : 'logos/tu_logo_kao.svg'"
@@ -40,8 +41,7 @@
     <q-btn
       rounded color="primary"
       size="lg"
-      label="GET STARTED"
-      to="product/search"/>
+      to="product/search">{{$t("GET STARTED")}}</q-btn>
   </q-page>
 </template>
 
@@ -104,7 +104,9 @@ export default defineComponent({
     methods: {
       changeURL(val) {
         api.defaults.baseURL = `https://${val}.openfoodfacts.org/`
+        this.$i18n.locale = val
         console.log(api.defaults.baseURL)
+        console.log(this.$i18n.locale)
       }
     }
   })
