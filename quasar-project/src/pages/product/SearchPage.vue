@@ -1,16 +1,30 @@
 <template>
   <q-page class="flex-center q-pa-md">
-    <div class="q-pa-md" >
-      <h5 class="text-weight-light text-center">
+    <div class="row justify-center q-pa-md">
+      <h5 class="text-weight-light text-center" style="margin-top: 0.5em !important;">
         {{ $t('Scan the barcode...') }}
       </h5>
       <div class="full-width">
-        <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" />
+        <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded" @init="onInit" v-if="$q.platform.is.desktop" />
       </div>
+
+      <img
+        alt="KAO logo"
+        :src="$q.dark.isActive ? 'barcodes/barcode-dark.png' : 'barcodes/barcode-light.png'"
+        style="margin-top: 0; width: 75%; margin-bottom: 4em"
+        v-if="$q.platform.is.mobile"
+      >
+      <q-btn
+        v-if="$q.platform.is.mobile"
+        rounded color="primary"
+        icon="qr_code_scanner"
+        label="Mobile Barcode Scanner"
+        @click="scanImage"
+      />
     </div>
 
     <div class="row justify-center q-pa-md">
-      <h5 class="text-weight-light text-center" style="margin-bottom: 0.05em !important; padding-bottom: 0.05em !important;">
+      <h5 class="text-weight-light text-center" style="margin-bottom: 0.05em !important; padding-bottom: 0.05em !important; margin-top: 0.5em !important;">
         {{ $t('...or enter numbers below') }}
       </h5>
     </div>
@@ -123,7 +137,31 @@ export default defineComponent({
     onLoaded() {
       console.log("load");
     },
+    scanImage() {
+      cordova.plugins.barcodeScanner.scan(
+        (result) => {
+          this.barcode = result.text; // fill the variable text with the text of the barcode
+        },
+        (error) => {
+          alert("Scanning failed: " + error);
+        },
+        {
+          preferFrontCamera: false, // iOS and Android
+          showFlipCameraButton: true, // iOS and Android
+          showTorchButton: true, // iOS and Android
+          torchOn: true, // Android, launch with the torch switched on (if available)
+          saveHistory: true, // Android, save scan history (default false)
+          prompt: "Place a barcode inside the scan area", // Android
+          resultDisplayDuration: 500, // Android, display scanned text for X ms. 0 suppresses it entirely, default 1500
+          //formats : "QR_CODE,PDF_417", // default: all but PDF_417 and RSS_EXPANDED
+          orientation: "portrait", // Android only (portrait|landscape), default unset so it rotates with the device
+          disableAnimations: true, // iOS
+          disableSuccessBeep: true, // iOS and Android
+        }
+      );
+    },
   },
+
 
 })
 </script>
