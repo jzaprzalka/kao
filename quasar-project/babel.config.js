@@ -1,14 +1,6 @@
-/* eslint-disable */
-
-module.exports = api => {
-  return {
-    presets: [
-      [
-        '@quasar/babel-preset-app',
-        api.caller(caller => caller && caller.target === 'node')
-          ? { targets: { node: 'current' } }
-          : {}
-      ]
-    ]
-  }
-}
+//babel.config.js
+module.exports = {
+  presets: [
+    '@vue/app'
+  ]
+};

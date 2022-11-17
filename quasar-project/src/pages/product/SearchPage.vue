@@ -36,16 +36,17 @@
         v-model="barcode"
         style="min-width: 20em !important;"
         @keydown.enter.prevent="submit()"
+        name="barcode_input"
       />
     </div>
   </q-page>
 </template>
 
-<script>
+<script type="module">
 import { defineComponent, ref } from 'vue'
+import { useQuasar } from "quasar";
 import { StreamBarcodeReader } from 'vue-barcode-reader'
 import { api } from 'boot/axios'
-import {useQuasar} from "quasar";
 
 export default defineComponent({
   name: "SearchPage",

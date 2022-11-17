@@ -4,6 +4,35 @@ module.exports = {
   // Remove this if you have an higher level ESLint config file (it usually happens into a monorepos)
   root: true,
 
+  overrides: [
+    {
+      files: ["**/*.{js,ts}"],
+      // If the `script` part of a Vue component is stored in a separate JS/TS file,
+      // as is the case when using DFC (https://testing.quasar.dev/packages/unit-jest/#double-file-components-dfc),
+      // Vue ESLint plugin will highlight all public properties as unused
+      // as it's not able to detect their usage into the template
+      // We disable this rule and only keep it for Vue files
+      rules: { "vue/no-unused-properties": "off" },
+    },
+    {
+      files: [
+        '**/test/jest/__tests__/**/*.{spec,test}.{js,jsx,ts,tsx}',
+        '**/*.jest.{spec,test}.{js,jsx,ts,tsx}',
+      ],
+      env: {
+        browser: true,
+      },
+      extends: [
+        // Removes 'no-undef' lint errors for Jest global functions (`describe`, `it`, etc),
+        //  add Jest-specific lint rules and Jest plugin
+        // See https://github.com/jest-community/eslint-plugin-jest#recommended
+        'plugin:jest/recommended',
+        // Uncomment following line to apply style rules
+        // 'plugin:jest/style',
+      ],
+    },
+  ],
+
   parserOptions: {
     parser: '@babel/eslint-parser',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
@@ -36,11 +65,11 @@ module.exports = {
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-files
     // required to lint *.vue files
     'vue',
-    
+
     // https://github.com/typescript-eslint/typescript-eslint/issues/389#issuecomment-509292674
     // Prettier has not been included as plugin to avoid performance impact
     // add it as an extension for your IDE
-    
+
   ],
 
   globals: {
@@ -58,7 +87,7 @@ module.exports = {
 
   // add your custom rules here
   rules: {
-    
+
     'prefer-promise-reject-errors': 'off',
 
     // allow debugger during development only
