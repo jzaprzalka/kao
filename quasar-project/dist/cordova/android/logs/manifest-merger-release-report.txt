@@ -1,0 +1,250 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\asta9\.gradle\caches\transforms-3\4eafd83f8f2cff5f4f423d117b8360c9\transformed\jetified-barcodescanner-release-2.1.5\AndroidManifest.xml:2:1-14:12
+MERGED from [:CordovaLib] D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\CordovaLib\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d291a6f185053cd23b616e4ab375bb6e\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\2b0ebfa4d0b0c7972492b03fe82418c2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\asta9\.gradle\caches\transforms-3\3cd736f8d61ffc7a977bbbb55dd20cdb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\asta9\.gradle\caches\transforms-3\447eaaa9276fa9c10c05f3e2d73a75d4\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b3dfba0c8d84caf316db56b0cb31471f\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a2fa308bad1c65f9bb78708a94614923\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\11348cfdc29855f9d31894aff9c91267\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\asta9\.gradle\caches\transforms-3\c0ad5eb08c69156c176aabfd3d5f3dda\transformed\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\68dcfcca9a8dbcfcc905bd53f75fc75f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\4c3bc9354488d56f13f5839132d54cd6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\3642b96701ab04c1f031f0f7c75e43df\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\b794de6ad5f6efba0f2330e519063e25\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0282e4bfe2a8dc4cf23cba12ebd2dc06\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\77412cb58649a6d96eb4304f534321a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\cf88fb46af181b9d290c82f9850245c3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\62a29c11c7d3a77b1cbdbfa3747dd3e8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\315487a90537d1e781646056d3653100\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\34bb5a2bbfd3904b76d7a9ddaef2c31f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\e2d025b5a9b16df538a4be842a6a2716\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a5521c58881af167d5b069529e822956\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\77255116558eadc583e0eea51bf70141\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0f27e2b45c47518274682bd7836c4664\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\4f5835a734d23e4da7249f2e5d86b2ec\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d7327e8661b53656fbae64cd2cd557cc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\asta9\.gradle\caches\transforms-3\d0ccf99f6dfb33e1f0d451319138c41a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\50a2ddccf2231ef4a3da740c84e3b1ca\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\asta9\.gradle\caches\transforms-3\dc5dd60eb66b85bb11235fa3bda8fcd6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b10f815c331321e9414e0b4e563b7225\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\asta9\.gradle\caches\transforms-3\b781ca1b61e71287d48fac169c167bef\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\770770c202a69524cbd43c4855d8ebfb\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\145873a055fdb4737235e7cacc57f100\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\afbaad20496e5cd5c6f62cbf32e4be30\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\c8e58c3717ff7df3d2c16cac258d1505\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\0a3e0117253b072fc1503cbb12d940cc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:98-123
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:124-182
+	android:versionCode
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:5-14:19
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\asta9\.gradle\caches\transforms-3\4eafd83f8f2cff5f4f423d117b8360c9\transformed\jetified-barcodescanner-release-2.1.5\AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\asta9\.gradle\caches\transforms-3\4eafd83f8f2cff5f4f423d117b8360c9\transformed\jetified-barcodescanner-release-2.1.5\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\asta9\.gradle\caches\transforms-3\d0ccf99f6dfb33e1f0d451319138c41a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\asta9\.gradle\caches\transforms-3\d0ccf99f6dfb33e1f0d451319138c41a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:121-147
+	android:label
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:88-120
+	android:hardwareAccelerated
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:53-87
+	android:usesCleartextTraffic
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:5:148-183
+activity#com.company.KAO.MainActivity
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:160-197
+	android:launchMode
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:198-228
+	android:windowSoftInputMode
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:308-350
+	android:exported
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:136-159
+	android:configChanges
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:19-135
+	android:theme
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:257-307
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:6:229-256
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:9-315
+	android:clearTaskOnLaunch
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:19-51
+	android:windowSoftInputMode
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:265-312
+	android:exported
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:114-138
+	android:configChanges
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:52-113
+	android:theme
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:202-264
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:12:139-201
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:13:9-112
+	android:label
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:13:19-40
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:13:41-109
+uses-permission#android.permission.CAMERA
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:16:22-66
+uses-feature#android.hardware.camera
+ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:17:5-84
+	android:required
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:17:58-81
+	android:name
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml:17:19-57
+uses-sdk
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\asta9\.gradle\caches\transforms-3\4eafd83f8f2cff5f4f423d117b8360c9\transformed\jetified-barcodescanner-release-2.1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\asta9\.gradle\caches\transforms-3\4eafd83f8f2cff5f4f423d117b8360c9\transformed\jetified-barcodescanner-release-2.1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\CordovaLib\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\CordovaLib\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d291a6f185053cd23b616e4ab375bb6e\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d291a6f185053cd23b616e4ab375bb6e\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\2b0ebfa4d0b0c7972492b03fe82418c2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\2b0ebfa4d0b0c7972492b03fe82418c2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\asta9\.gradle\caches\transforms-3\3cd736f8d61ffc7a977bbbb55dd20cdb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\asta9\.gradle\caches\transforms-3\3cd736f8d61ffc7a977bbbb55dd20cdb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\asta9\.gradle\caches\transforms-3\447eaaa9276fa9c10c05f3e2d73a75d4\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\asta9\.gradle\caches\transforms-3\447eaaa9276fa9c10c05f3e2d73a75d4\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b3dfba0c8d84caf316db56b0cb31471f\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b3dfba0c8d84caf316db56b0cb31471f\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a2fa308bad1c65f9bb78708a94614923\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a2fa308bad1c65f9bb78708a94614923\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\11348cfdc29855f9d31894aff9c91267\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\11348cfdc29855f9d31894aff9c91267\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\asta9\.gradle\caches\transforms-3\c0ad5eb08c69156c176aabfd3d5f3dda\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\asta9\.gradle\caches\transforms-3\c0ad5eb08c69156c176aabfd3d5f3dda\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\68dcfcca9a8dbcfcc905bd53f75fc75f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\68dcfcca9a8dbcfcc905bd53f75fc75f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\4c3bc9354488d56f13f5839132d54cd6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\4c3bc9354488d56f13f5839132d54cd6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\3642b96701ab04c1f031f0f7c75e43df\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\3642b96701ab04c1f031f0f7c75e43df\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\b794de6ad5f6efba0f2330e519063e25\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\b794de6ad5f6efba0f2330e519063e25\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0282e4bfe2a8dc4cf23cba12ebd2dc06\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0282e4bfe2a8dc4cf23cba12ebd2dc06\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\77412cb58649a6d96eb4304f534321a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\77412cb58649a6d96eb4304f534321a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\cf88fb46af181b9d290c82f9850245c3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\cf88fb46af181b9d290c82f9850245c3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\62a29c11c7d3a77b1cbdbfa3747dd3e8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\62a29c11c7d3a77b1cbdbfa3747dd3e8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\315487a90537d1e781646056d3653100\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\315487a90537d1e781646056d3653100\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\34bb5a2bbfd3904b76d7a9ddaef2c31f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\34bb5a2bbfd3904b76d7a9ddaef2c31f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\e2d025b5a9b16df538a4be842a6a2716\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\e2d025b5a9b16df538a4be842a6a2716\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\asta9\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a5521c58881af167d5b069529e822956\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\a5521c58881af167d5b069529e822956\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\77255116558eadc583e0eea51bf70141\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\77255116558eadc583e0eea51bf70141\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0f27e2b45c47518274682bd7836c4664\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\asta9\.gradle\caches\transforms-3\0f27e2b45c47518274682bd7836c4664\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\4f5835a734d23e4da7249f2e5d86b2ec\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\4f5835a734d23e4da7249f2e5d86b2ec\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d7327e8661b53656fbae64cd2cd557cc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\d7327e8661b53656fbae64cd2cd557cc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\asta9\.gradle\caches\transforms-3\d0ccf99f6dfb33e1f0d451319138c41a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\asta9\.gradle\caches\transforms-3\d0ccf99f6dfb33e1f0d451319138c41a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\50a2ddccf2231ef4a3da740c84e3b1ca\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\50a2ddccf2231ef4a3da740c84e3b1ca\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\asta9\.gradle\caches\transforms-3\dc5dd60eb66b85bb11235fa3bda8fcd6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\asta9\.gradle\caches\transforms-3\dc5dd60eb66b85bb11235fa3bda8fcd6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b10f815c331321e9414e0b4e563b7225\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\asta9\.gradle\caches\transforms-3\b10f815c331321e9414e0b4e563b7225\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\asta9\.gradle\caches\transforms-3\b781ca1b61e71287d48fac169c167bef\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\asta9\.gradle\caches\transforms-3\b781ca1b61e71287d48fac169c167bef\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\770770c202a69524cbd43c4855d8ebfb\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\770770c202a69524cbd43c4855d8ebfb\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\145873a055fdb4737235e7cacc57f100\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\145873a055fdb4737235e7cacc57f100\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\afbaad20496e5cd5c6f62cbf32e4be30\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\afbaad20496e5cd5c6f62cbf32e4be30\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\c8e58c3717ff7df3d2c16cac258d1505\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\c8e58c3717ff7df3d2c16cac258d1505\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\0a3e0117253b072fc1503cbb12d940cc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\asta9\.gradle\caches\transforms-3\0a3e0117253b072fc1503cbb12d940cc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STUDIA\SEMESTR2MGR\ZIO\KAO\kao\quasar-project\src-cordova\platforms\android\app\src\main\AndroidManifest.xml
