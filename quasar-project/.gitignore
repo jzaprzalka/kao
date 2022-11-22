@@ -1,6 +1,7 @@
 .DS_Store
 .thumbs.db
 node_modules
+build.cordova.json
 
 # Quasar core related directories
 .quasar
