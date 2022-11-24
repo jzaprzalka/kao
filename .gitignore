@@ -1,3 +1,6 @@
+quasar-release-key.jks
+quasar-debug-key.jks
+
 # Logs
 logs
 *.log

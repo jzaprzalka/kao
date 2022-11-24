@@ -31,6 +31,8 @@
 
     <div class="row justify-center q-pa-md" style="margin-top: 0 !important; padding-top: 0 !important;">
       <q-input
+        type="number"
+        min="0"
         rounded
         outlined
         v-model="barcode"
@@ -45,7 +47,7 @@
 import { defineComponent, ref } from 'vue'
 import { StreamBarcodeReader } from 'vue-barcode-reader'
 import { api } from 'boot/axios'
-import {useQuasar} from "quasar";
+import {Notify} from "quasar";
 
 export default defineComponent({
   name: "SearchPage",
@@ -59,9 +61,13 @@ export default defineComponent({
   },
 
   setup () {
-    const $q = useQuasar()
+    return {
+      barcode: ref('')
+    }
+  },
 
-    function submit() {
+  methods: {
+    submit() {
       let _this = this
       let data;
 
@@ -70,7 +76,7 @@ export default defineComponent({
           data = Object.values(response.data)
         })
         .catch(() => {
-          $q.notify({
+          Notify.create({
             color: 'negative',
             position: 'top',
             message: 'Loading failed',
@@ -78,42 +84,44 @@ export default defineComponent({
           })
         })
 
-      $q.notify({
+      Notify.create({
         spinner: true,
         message: 'Please wait...',
         timeout: 1600
       })
 
       setTimeout(() => {
-        if(data[0] == null)
-          $q.notify({
+        if(data) {
+          if(data[0] == null)
+            Notify.create({
+              color: 'negative',
+              position: 'top',
+              message: 'Product not found',
+              icon: 'report_problem'
+            })
+          else
+          {
+            data = data[1]
+            _this.$router.push({path: '/product/details',  query: { barcode: JSON.stringify(data) }})
+          }
+        } else {
+          Notify.create({
+            color: 'negative',
+            position: 'top',
             message: 'Product not found',
-            icon: 'error'
+            icon: 'report_problem'
           })
-        else
-        {
-          data = data[1]
-          _this.$router.push({path: '/product/details',  query: { barcode: JSON.stringify(data) }})
         }
+
       }, 1950)
 
-    }
-    return {
-      barcode: ref(''),
-      submit
-    }
-  },
-
-  methods: {
-    // submit() {
-    //   console.log(this.barcode)
-    //   let _this = this
-    //   _this.$router.push({path: '/product/details',  query: { barcode: this.barcode }})
-    // },
+    },
     onDecode(a, b, c) {
-      this.barcode = a;
+      if(this.barcode !== a) {
+        this.barcode = a;
+        this.submit()
+      }
       console.log(a + "" + b + "" + c);
-      submit();
     },
     async onInit(promise) {
       try {
@@ -140,7 +148,8 @@ export default defineComponent({
     scanImage() {
       cordova.plugins.barcodeScanner.scan(
         (result) => {
-          this.barcode = result.text; // fill the variable text with the text of the barcode
+          this.barcode = result.text;
+          this.submit()
         },
         (error) => {
           alert("Scanning failed: " + error);
@@ -149,8 +158,8 @@ export default defineComponent({
           preferFrontCamera: false, // iOS and Android
           showFlipCameraButton: true, // iOS and Android
           showTorchButton: true, // iOS and Android
-          torchOn: true, // Android, launch with the torch switched on (if available)
-          saveHistory: true, // Android, save scan history (default false)
+          torchOn: false, // Android, launch with the torch switched on (if available)
+          saveHistory: false, // Android, save scan history (default false)
           prompt: "Place a barcode inside the scan area", // Android
           resultDisplayDuration: 500, // Android, display scanned text for X ms. 0 suppresses it entirely, default 1500
           //formats : "QR_CODE,PDF_417", // default: all but PDF_417 and RSS_EXPANDED
