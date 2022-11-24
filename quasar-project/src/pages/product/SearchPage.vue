@@ -31,6 +31,8 @@
 
     <div class="row justify-center q-pa-md" style="margin-top: 0 !important; padding-top: 0 !important;">
       <q-input
+        type="number"
+        min="0"
         rounded
         outlined
         v-model="barcode"
