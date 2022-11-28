@@ -43,10 +43,10 @@
 </template>
 
 <script type="module">
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref } from 'vue';
 import { useQuasar } from "quasar";
-import { StreamBarcodeReader } from 'vue-barcode-reader'
-import { api } from 'boot/axios'
+import { StreamBarcodeReader } from 'vue-barcode-reader';
+import { api } from 'boot/axios';
 
 export default defineComponent({
   name: "SearchPage",

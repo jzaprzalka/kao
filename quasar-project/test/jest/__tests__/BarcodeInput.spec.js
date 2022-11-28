@@ -7,7 +7,7 @@ installQuasarPlugin();
 describe('Barcode input', function () {
   const wrapper = mount(SearchPage);
 
-  it("accepts email input", async () => {
+  it("accepts barcode input", async () => {
     const barcode = "5449000131836";
     const barcode_input = wrapper.find("input[name=barcode_input]");
     await barcode_input.setValue(barcode);
