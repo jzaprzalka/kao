@@ -6,6 +6,16 @@ bar**K**ode **A**ttachment to **O**penfoodfacts in Vue.
 
 The application is made in order to facilitate gaining information about food products using their barcode in any shop all around the globe. It communicates with [OpenFoodFacts](https://world.openfoodfacts.org/) API to get the most recent data. 
 
+## Deployment
+
+The KAO Application is deployed for mobile and web platforms with the common base in [Vue.JS](https://vuejs.org/) and [Quasar framework](https://quasar.dev/). 
+
+- The version for Android available on Google Play: [KAO Android | Google Play](https://play.google.com/store/apps/details?id=com.company.KAO)
+
+- The web version on Github Pages [KAO Web | GitHub Pages](https://waitwhatson.github.io/kao/#/) 
+
+    (The version is deployed from the fork of this repo by one of the authors; source code here: [WaitWhatSon/kao](https://github.com/WaitWhatSon/kao))
+
 ## Technologies
 
 The application is a mobile app developed in [Quasar framework](https://quasar.dev/) for [Vue.JS](https://vuejs.org/). As far as the scope of this project is concerned, the app is intended for multi-platform mobile devices, but with minor customizations it can be made into a web platform. 

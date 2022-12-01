@@ -8,13 +8,7 @@ There are 2 ways for installing the project. The instructions for [end users](#e
 
 ### End-Users
 
------
-
-**_In development_**: This Application is currently in the development phase and the features described in this section are not yet working. 
-
------
-
-To install the app on iOS or Android navigate to Play Store / App store and download and install `KAO - barKode Attachment to Openfoodfacts`. Then continue to [Usage Guide](#2-usage-guide). 
+To install the app on Android navigate to Google Play Store and download and install [KAO - barKode Attachment to Openfoodfacts](https://play.google.com/store/apps/details?id=com.company.KAO). Then continue to [Usage Guide](#2-usage-guide). 
 
 ### Developers
 
