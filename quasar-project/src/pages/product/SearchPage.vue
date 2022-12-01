@@ -38,6 +38,7 @@
         v-model="barcode"
         style="min-width: 20em !important;"
         @keydown.enter.prevent="submit()"
+        name="barcode_input"
       />
     </div>
   </q-page>
