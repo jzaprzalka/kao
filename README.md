@@ -2,12 +2,6 @@
 
 bar**K**ode **A**ttachment to **O**penfoodfacts in Vue. 
 
-----
-
-**_In development_**: This Application is currently in the development phase and most of its functionalities are not yet available. 
-
-----
-
 ## Description
 
 The application is made in order to facilitate gaining information about food products using their barcode in any shop all around the globe. It communicates with [OpenFoodFacts](https://world.openfoodfacts.org/) API to get the most recent data. 
