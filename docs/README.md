@@ -8,13 +8,7 @@ There are 2 ways for installing the project. The instructions for [end users](#e
 
 ### End-Users
 
------
-
-**_In development_**: This Application is currently in the development phase and the features described in this section are not yet working. 
-
------
-
-To install the app on iOS or Android navigate to Play Store / App store and download and install `KAO - barKode Attachment to Openfoodfacts`. Then continue to [Usage Guide](#2-usage-guide). 
+To install the app on Android navigate to Google Play Store and download and install [KAO - barKode Attachment to Openfoodfacts](https://play.google.com/store/apps/details?id=com.company.KAO). Then continue to [Usage Guide](#2-usage-guide). 
 
 ### Developers
 
@@ -56,7 +50,7 @@ The next page is the place to scan or enter the barcode in order to search for t
 
 **Note**: if the input is currently focused, the scanner will not be working; i.e. if one is or was trying to enter the barcode by hand, but instead wants it scanned, one shall exit the input and keep it out of UX focus until it is filled out with the scanned barcode correctly. 
 
-To proceed from this screen one shall focus the input and click `return` / `submit` on the keyboard. The screen that follows represent the details of the scanned product. To display the full-size image of the product one can click the splash screen with the fragment
+After scanning the barcode the application should proceed automatically to the next screen. Otherwise, to proceed from this screen one shall focus the input and click `return` / `submit` on the keyboard. The screen that follows represent the details of the scanned product. To display the full-size image of the product one can click the splash screen with the fragment
 
 ![](./details_light.jpg)
 ![](./details_dark.jpg)
