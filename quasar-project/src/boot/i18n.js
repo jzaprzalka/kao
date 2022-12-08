@@ -5,8 +5,8 @@ import messages from 'src/i18n'
 
 // Create I18n instance
 const i18n = createI18n({
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'pl',
+  fallbackLocale: 'pl',
   globalInjection: true,
   messages
 })

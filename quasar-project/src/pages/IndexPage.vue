@@ -49,7 +49,7 @@
 import {defineComponent, ref} from 'vue'
 import { api } from 'boot/axios'
 import { useQuasar } from 'quasar'
-
+import { i18n } from 'boot/i18n.js'
 
 export default defineComponent({
   name: 'IndexPage',
@@ -81,7 +81,7 @@ export default defineComponent({
       })
 
     return {
-      model: ref(null),
+      model: ref('Polish'),
       options,
       filterFn (val, update) {
         if (options.value !== null) {

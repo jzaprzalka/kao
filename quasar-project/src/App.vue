@@ -5,10 +5,15 @@
 <script>
 import { defineComponent } from 'vue'
 import {useQuasar} from "quasar";
+import {api} from "boot/axios";
+import {i18n} from "boot/i18n";
 
 export default defineComponent({
   name: 'App',
   setup() {
+
+    api.defaults.baseURL = `https://pl.openfoodfacts.org/`
+
     const $q = useQuasar()
 
     if($q.platform.is.mobile) {
