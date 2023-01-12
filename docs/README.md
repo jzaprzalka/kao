@@ -50,9 +50,16 @@ The next page is the place to scan or enter the barcode in order to search for t
 
 **Note**: if the input is currently focused, the scanner will not be working; i.e. if one is or was trying to enter the barcode by hand, but instead wants it scanned, one shall exit the input and keep it out of UX focus until it is filled out with the scanned barcode correctly. 
 
-After scanning the barcode the application should proceed automatically to the next screen. Otherwise, to proceed from this screen one shall focus the input and click `return` / `submit` on the keyboard. The screen that follows represent the details of the scanned product. To display the full-size image of the product one can click the splash screen with the fragment
+Mobile app's view is slightly different. MOBILE BARCODE SCANNER button opens camera view then waits until the code is scanned.
 
-![](./details_light.jpg)
-![](./details_dark.jpg)
+![](./mobile_light.jpg)
+![](./mobile_dark.jpg)
+
+To proceed from this screen one shall focus the input and click `return` / `submit` on the keyboard. The screen that follows represent the details of the scanned product. To display the full-size image of the product one can click the splash screen with the fragment
+
+<!-- ![](./details_light.jpg)
+![](./details_dark.jpg) -->
+![](./details_light.png)
+![](./details_dark.png)
 
 In any moment in the application, to navigate back one should use the `back` key on the phone or browser's `previous page` button.
